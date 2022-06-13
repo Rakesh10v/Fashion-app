@@ -1,0 +1,40 @@
+.success {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px arial, sans-serif;
+  font-family: "Dancing Script", cursive !important;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  height: 1000px;
+  background-image: url("https://www.wordstream.com/wp-content/uploads/2021/07/fashion-marketing-tips.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+.bt-out {
+  margin-right: 40px;
+  /* margin-top: 30px; */
+  background-color: rgb(0, 27, 80);
+  font-size: 25px;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+}
+.bt-home {
+  margin-left: 100px;
+  background-color: rgb(0, 27, 80);
+  font-size: 25px;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+}
+.ord {
+  color: rgb(0, 27, 80);
+  font-weight: 600;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 600px;
+  text-align: center;
+}

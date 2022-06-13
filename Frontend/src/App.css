@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lavishly+Yours&display=swap");
+
+.home-pg {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px arial, sans-serif;
+  font-family: "Dancing Script", cursive !important;
+  font-weight: bold;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-acc {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: brown;
+}
+
+.hello {
+  height: 200%;
+  font-size: 500%;
+  color: white;
+  padding-left: 30px;
+}
+
+.btn-acc {
+  display: flex;
+}
+.bt-sign,
+.bt-log {
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color: rgb(0, 27, 80);
+  font-size: 25px;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+}
+.freestyle {
+  color: rgb(13, 33, 64);
+  font-size: 80px;
+  font-weight: 200;
+  font-family: "Julius Sans One", sans-serif !important;
+  padding: 100px 0px 0px 50px;
+  letter-spacing: 3px;
+}
+
+.bg-img {
+  height: 560px;
+  background-image: url("https://cdn2.assets-servd.host/pebble-mag/production/images/_1200x630_crop_center-center_82_none/What%E2%80%99s-Wrong-With-Fast-Fashion_-header.jpg?mtime=1583424325");
+  background-position: center;
+  background-size: cover;
+}
+
+.foot {
+  color: rgb(13, 33, 64);
+  font-size: 50px;
+  font-family: "Lavishly Yours", cursive !important;
+  padding: 20px 0px 0px 150px;
+}
+
+.btm-txt {
+  padding-left: 50px;
+}
+
+.form-control input-sm chat-input {
+  font-family: "Julius Sans One", sans-serif !important;
+}

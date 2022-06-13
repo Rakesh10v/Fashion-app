@@ -1,0 +1,96 @@
+.log-img {
+  background-image: url("https://www.mia-online.org/wp-content/uploads/2020/10/images2509-5f986dd40f89c.jpg");
+  background-position: center;
+  background-size: cover;
+
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px arial, sans-serif;
+  /* font-family: "Dancing Script", cursive !important; */
+  font-weight: bold;
+}
+.btn btn-danger btn-md {
+  background-color: blue;
+}
+
+.container {
+  padding: 150px;
+  padding-left: 500px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: z#353535 !important;
+  /* opacity: 1; Firefox */
+  font-size: 18px !important;
+}
+.form-login {
+  background-color: rgb(255, 255, 255);
+  opacity: 70%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border-color: #d2d2d2;
+  border-width: 5px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 1px 0 #cfcfcf;
+  height: 450px;
+  width: 400px;
+  border-bottom: solid black 1px;
+  /* font-family: ; */
+}
+.form-control {
+  background: transparent !important;
+  color: rgb(32, 32, 32) !important;
+  font-size: 18px !important;
+}
+h1 {
+  color: white !important;
+}
+h4 {
+  border: 0 solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.form-control {
+  height: 30px;
+  border-radius: 10px;
+}
+.text-white {
+  color: rgb(0, 0, 0);
+}
+.wrapper {
+  text-align: center;
+}
+.footer {
+  font-size: 18px;
+}
+.button1 {
+  background-color: rgb(0, 27, 80);
+  font-size: 25px;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+}
+.button {
+  color: #cfcfcf;
+}
+
+.userNp-log {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  row-gap: 50px;
+}
+
+::placeholder {
+  font-family: "Dancing Script", cursive !important;
+}
+
+h4,
+p {
+  font-family: "Dancing Script", cursive !important;
+}

@@ -1,0 +1,222 @@
+home-pg {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px arial, sans-serif;
+  font-family: "Dancing Script", cursive !important;
+  font-weight: bold;
+  background-color: rgb(135, 134, 134);
+  display: flex;
+  justify-content: space-between;
+}
+.btn-acc {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+* {
+  margin: 0;
+}
+/* Header CSS */
+.head-wrapper {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  background-color: rgb(135, 134, 134);
+  font-family: "Lavishly Yours", cursive !important;
+
+  width: 100%;
+  height: auto;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.head-title {
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+  /* margin: auto; */
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.head-cart {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.MuiSvgIcon-root {
+  text-align: right;
+  margin-top: 13px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.head-cart > .count {
+  text-align: right;
+  margin-top: 11px;
+  padding-left: 5px;
+  color: white;
+  font-size: 22px;
+}
+@media (min-width: 400px) {
+  .head-title {
+    width: 90%;
+  }
+  .head-cart {
+    width: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .head-title {
+    width: 95%;
+  }
+  .head-cart {
+    width: 5%;
+  }
+}
+
+/* Home Page CSS */
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  height: 560px;
+  background-image: url("https://cdn2.assets-servd.host/pebble-mag/production/images/_1200x630_crop_center-center_82_none/What%E2%80%99s-Wrong-With-Fast-Fashion_-header.jpg?mtime=1583424325");
+  background-position: center;
+  background-size: cover;
+}
+
+.item-wrapper {
+  height: 200px;
+  width: 200px;
+  box-shadow: 1px 1px 12px 5px #cecaca;
+  margin: 50px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.item-wrapper:hover {
+  box-shadow: 1px 1px 6px 5px #888888;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.item-image {
+  height: 150px;
+  width: 150px;
+  margin: 25px 0px 0px 25px;
+  border-radius: 50%;
+}
+
+.item-link {
+  text-decoration: none;
+}
+
+.item-name {
+  text-align: center;
+  color: black;
+}
+
+/* Products Page and Card */
+
+.product-wrapper > h2 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+.product-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid rgb(218, 218, 218);
+  margin: auto;
+  padding: 10px;
+}
+
+.product-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.product-details > h4 {
+  margin-bottom: 11px;
+}
+
+.product-price {
+  margin-bottom: 11px;
+}
+
+.product-description {
+  color: #888888;
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+.product-btn {
+  margin-top: 10px;
+  color: white;
+  background-color: darkslateblue;
+  border: none;
+  width: 120px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-btn:hover {
+  cursor: pointer;
+  font-size: 21;
+  width: 125px;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+}
+.product-image > img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Cart Page */
+.placeholder-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-btn-placeholder {
+  margin-top: 10px auto auto auto;
+  color: white;
+  background-color: rgb(211, 41, 41);
+  border: none;
+  width: 130px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-btn-placeholder:hover {
+  cursor: pointer;
+  font-size: 21px;
+  width: 135px;
+}
+
+@media (max-width: 320px) {
+  .product-image {
+    margin-top: 10px;
+  }
+}
